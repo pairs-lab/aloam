@@ -7,12 +7,12 @@ This code is modified from LOAM and [LOAM_NOTED](https://github.com/cuitaixiang/
 This code is clean and simple without complicated mathematical derivation and redundant operations.
 It is a good learning material for SLAM beginners.
 
-The MRS version of A-LOAM is parallelized (nodeleted) and refactored to be more readable.
-It also depends on some MRS-specific packages -- see below.
+The PAIRS version of A-LOAM is parallelized (nodeleted) and refactored to be more readable.
+It also depends on some PAIRS-specific packages -- see below.
 
 ## 1. Prerequisites
 
-The same prerequisities as for the MRS system:
+The same prerequisities as for the PAIRS system:
 
 * Ubuntu 64-bit 16.04, 18.04, or 20.04,
 * ROS Kinetic, Melodic or Noetic ([ROS Installation](http://wiki.ros.org/ROS/Installation)),
@@ -20,11 +20,11 @@ The same prerequisities as for the MRS system:
 * [PCL](http://www.pointclouds.org/downloads/linux.html).
 
 ## 2. Dependencies
-The MRS version of A-LOAM depends on these packages:
+The PAIRS version of A-LOAM depends on these packages:
 
-* [pairs_lib](https://github.com/ctu-mrs/pairs_lib),
+* [pairs_lib](https://github.com/pairs-lab/pairs_lib),
 * [ouster driver](https://github.com/ctu-mrs/ouster), and
-* [pairs_pcl_tools](https://github.com/ctu-mrs/pairs_pcl_tools) (optional, but recommended).
+* [pairs_pcl_tools](https://github.com/pairs-lab/pairs_pcl_tools) (optional, but recommended).
 
 Theese packages have to be available and built in your ROS workspace.
 
